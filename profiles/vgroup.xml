@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VGroup Ver="1.1">
+	<Connection Name="KIO_JULIO" ServerType="ctPGSQL">
+		<Database Name="kio_julio">
+			<Schema Name="encuestas">
+				<Category Name="Bonos" Type="Query"/>
+				<Category Name="Encuestas_reporte" Type="Query">
+					<Item Name="Actualiza_promedios" Type="Query"/>
+					<Item Name="consultas_promedios" Type="Query"/>
+					<Item Name="En_no_contestadas_vs_yisus" Type="Query"/>
+					<Item Name="Enc_contestada_no_tutorizada" Type="Query"/>
+					<Item Name="Enc_contestada_tutorizada" Type="Query"/>
+					<Item Name="enc_no_contestada_no_tutorizado" Type="Query"/>
+					<Item Name="Enc_no_contestada_tutorizado" Type="Query"/>
+					<Item Name="Encuestas_tutorizados_vs_yisus" Type="Query"/>
+					<Item Name="Evaluadores_encuestas" Type="Query"/>
+					<Item Name="Obtener_promedios_encuestas_hechos" Type="Query"/>
+					<Item Name="Reporte cursos no tutorizados CyNC- Normativo " Type="Query"/>
+					<Item Name="Reporte cursos no tutorizados CyNC (SN-Normativo) " Type="Query"/>
+					<Item Name="Reporte curso tutorizado NC (Normativos)" Type="Query"/>
+					<Item Name="Reporte curso tutorizado NC (SN-Normativos)" Type="Query"/>
+					<Item Name="Reporte cursos tutorizados C" Type="Query"/>
+				</Category>
+			</Schema>
+		</Database>
+		<Database Name="kio_agosto">
+			<Schema Name="encuestas">
+				<Category Name="Encuestas_reporte" Type="Query">
+					<Item Name="Reporte curso tutorizado NC (Normativos)" Type="Query"/>
+					<Item Name="Reporte curso tutorizado NC (SN-Normativos)" Type="Query"/>
+					<Item Name="Reporte cursos no tutorizados CyNC (SN-Normativo) " Type="Query"/>
+					<Item Name="Reporte cursos no tutorizados CyNC- Normativo " Type="Query"/>
+					<Item Name="Reporte cursos tutorizados C" Type="Query"/>
+				</Category>
+			</Schema>
+		</Database>
+		<Database Name="kio_sept">
+			<Schema Name="public">
+				<Category Name="ditto" Type="Query">
+					<Item Name="cantidad_docentes" Type="Query"/>
+					<Item Name="implementaciones_2017" Type="Query"/>
+					<Item Name="Cursos_2017" Type="Query"/>
+					<Item Name="registro_docentes" Type="Query"/>
+					<Item Name="Formato_precarga_die" Type="Query"/>
+					<Item Name="Obtener repeticiones de cursos por anio" Type="Query"/>
+					<Item Name="Curso_igual_nombres_diferentes" Type="Query"/>
+					<Item Name="precarga_die_valida_tipo_curso" Type="Query"/>
+				</Category>
+			</Schema>
+		</Database>
+	</Connection>
+	<Connection Name="ser_19_p33" ServerType="ctPGSQL">
+		<Database Name="kio_marzo_18">
+			<Schema Name="encuestas">
+				<Category Name="certificados" Type="Query"/>
+			</Schema>
+		</Database>
+	</Connection>
+</VGroup>
